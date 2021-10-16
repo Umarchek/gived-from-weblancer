@@ -17207,7 +17207,6 @@
     })), qe(document).scroll((function (e) {
         if (!Ge) return !1;
         let t = qe(this).scrollTop();
-        console.log(Ve);
         t < Ve ? function () {
             const e = qe("#header");
             let t = qe(document).scrollTop();

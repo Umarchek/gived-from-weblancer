@@ -16511,8 +16511,12 @@ body.fixed {
   list-style: none;
   padding: 0;
   display: flex;
-  flex-wrap: wrap;
-  margin: 0 -15px 40px
+  flex-wrap: row;
+  margin: 0 -15px 40px;
+  overflow: scroll;
+}
+.rents-section .rents-visual-content .floor-plans-block .floors-list::-webkit-scrollbar {
+  opacity: 0;
 }
 
 .rents-section .rents-visual-content .floor-plans-block .floors-list .floor-item {
@@ -16733,7 +16737,6 @@ body.fixed {
     padding: 18px 15px 0;
   }
   .rents-section .rents-visual-content .floor-plans-block .floors-list {
-    justify-content: flex-end;
     margin: 0 0 28px;
   }
   .rents-section .rents-visual-content .floor-plans-block .floors-list .floor-item {
@@ -18133,7 +18136,7 @@ body.fixed {
 }
 
 .RowRents {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
 }
 
