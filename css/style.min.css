@@ -17712,7 +17712,7 @@ body.fixed {
 .slider-nav-box .owl-nav, .slider-nav-box .slider-arrow-wrap {
   display: flex;
   margin-left: -7px;
-  margin-right: -7px
+  margin-right: 4px
 }
 
 .slider-nav-box .owl-nav .slider-arrow-btn, .slider-nav-box .owl-nav>button, .slider-nav-box .slider-arrow-wrap .slider-arrow-btn, .slider-nav-box .slider-arrow-wrap>button {
