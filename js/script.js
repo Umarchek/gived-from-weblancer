@@ -17207,7 +17207,8 @@
     })), qe(document).scroll((function (e) {
         if (!Ge) return !1;
         let t = qe(this).scrollTop();
-        t > Ve ? function () {
+        console.log(Ve);
+        t < Ve ? function () {
             const e = qe("#header");
             let t = qe(document).scrollTop();
             t < qe(e)[0].clientHeight + 30 ? (qe(e).addClass("no-transition"), qe(e).css("top", -1 * t)) : (qe(e).removeClass("no-transition"), setTimeout(() => {
