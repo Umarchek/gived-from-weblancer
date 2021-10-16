@@ -16837,6 +16837,12 @@ body.fixed {
 }
 
 @media (max-width:767.9px) {
+  .main-tab-menu-list::-webkit-scrollbar-track {
+    opacity: 0;
+  }
+  .main-tab-menu-list::-webkit-scrollbar {
+    opacity: 0;
+  }
   .main-tab-menu-list {
     overflow-x: auto;
     padding: 0;
