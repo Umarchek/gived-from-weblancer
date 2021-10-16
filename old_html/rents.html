@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Аренда офисов</title>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <header id="header" class="page-header text-white">
+      <div class="container">
+        <div class="header-box d-flex justify-content-between align-items-center">
+          <div class="logo-box d-flex align-items-center">
+            <div class="logo">
+              <a href="index.html"><img src="img/logo.svg" alt=""/></a>
+            </div>
+            <button class="hide-btn menu-toggle-btn d-flex d-md-none menuBtn">
+              <span class="burger-item"></span>
+              <span class="burger-item"></span>
+              <span class="burger-item"></span>
+            </button>
+          </div>
+          <div class="header-content d-flex justify-content-center justify-content-md-end align-items-center">
+            <button class="hide-btn menu-toggle-btn d-none d-md-flex menuBtn">
+              <span class="burger-item"></span>
+              <span class="burger-item"></span>
+              <span class="burger-item"></span>
+            </button>
+            <ul class="header-menu-list">
+              <li class="header-menu-item">
+                <a href="#"><span>Новости</span></a>
+              </li>
+              <li class="header-menu-item">
+                <a href="#"><span>Наши арендаторы</span></a>
+              </li>
+              <li class="header-menu-item">
+                <a href="#"><span>Аренда офисов</span></a>
+              </li>
+              <li class="header-menu-item">
+                <a href="#"><span>Контакты</span></a>
+              </li>
+            </ul>
+            <a href="#" class="header-map-btn">
+              <svg class="svg-icon icon mr-2"><use xlink:href="img/icons/svg-icons.svg#icon_header_map"></use></svg>
+              <span>Московское шоссе, 41</span>
+            </a>
+            <a href="tel:+78463727272" class="header-phone-btn">
+              <svg class="svg-icon icon mr-2"><use xlink:href="img/icons/svg-icons.svg#icon_header_phone"></use></svg>
+              <span>+7 (846) 372-72-72</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <nav id="nav" class="page-nav bg-primary">
+        <div class="container">
+          <div class="nav-box">
+            <ul class="nav-menu-list">
+              <li class="nav-menu-item"><a href="news.html">Новости</a></li>
+              <li class="nav-menu-item"><a href="tenants.html">Наши арендаторы</a></li>
+              <li class="nav-menu-item"><a href="rents.html">Аренда офисов</a></li>
+              <li class="nav-menu-item"><a href="contact.html">Контакты</a></li>
+              <li class="nav-menu-item"><a href="about.html">О центре</a></li>
+              <li class="nav-menu-item"><a href="service.html">Сервис</a></li>
+              <li class="nav-menu-item"><a href="infrastructure.html">Инфраструктура</a></li>
+              <li class="nav-menu-item"><a href="parking.html">Паркинг</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="page-nav-overlay"></div>
+
+    <section
+      id="section_1"
+      class="section section-1 rents-first-section first-section first-overlay-section"
+      data-theme="light"
+      data-index="1"
+      style="background-image: url('img/first-block-bg.jpg')"
+    >
+      <div class="rents-first-section-inner">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Аренда офисов</li>
+            </ol>
+          </nav>
+          <div class="section-title d-flex align-items-center">
+            <h2 class="section-title mb-0 pb-0">Аренда офисов</h2>
+            <p class="rents-cont mb-0">10 предложений</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section_2" class="section section-2 rents-section" data-theme="light" data-index="2">
+      <div class="rents-section-inner">
+        <div class="container">
+          <div class="rents-header">
+            <ul class="main-tab-menu-list rents-tab-menu-list">
+              <li class="main-tab-menu-item">
+                <a class="rentsTabLink active" data-toggle="tab" href="#rentsVisual">Визуальный подбор</a>
+              </li>
+              <li class="main-tab-menu-item">
+                <a class="rentsTabLink" data-toggle="tab" href="#rentsTable">Таблица свободных площадей</a>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content">
+            <div class="tab-pane active" id="rentsVisual">
+              <div class="rents-visual-content">
+                <div class="row">
+                  <div class="col-lg-5 rant-image-col">
+                    <div class="rant-image-box">
+                      <img src="img/rent-img.jpg" alt="Rent" class="" />
+                    </div>
+                    <div class="free-areas-box">
+                      <h3>Свободные площади</h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-7">
+                    <div class="floor-plans-block">
+                      <h3 class="block-title">Планировки этажей</h3>
+                      <ul class="floors-list">
+                        <li class="floor-item"><a class="floor-link floorLink" href="#floor_-1">-1</a></li>
+                        <li class="floor-item"><a class="floor-link floorLink" href="#floor_1">1</a></li>
+                        <li class="floor-item"><a class="floor-link floorLink" href="#floor_2">2</a></li>
+                        <li class="floor-item"><a class="floor-link floorLink" href="#floor_3">3</a></li>
+                        <li class="floor-item"><a class="floor-link floorLink" href="#floor_4">4</a></li>
+                        <li class="floor-item"><a class="floor-link floorLink" href="#floor_5">5</a></li>
+                        <li class="floor-item"><a class="floor-link floorLink" href="#floor_6">6</a></li>
+                        <li class="floor-item"><a class="floor-link floorLink" href="#floor_7">7</a></li>
+                        <li class="floor-item"><a class="floor-link floorLink" href="#floor_8">8</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="occupied-area-per-floor-block">
+                  <h2 class="section-title">Занятые площади на этаже</h2>
+                  <div class="row">
+                    <div class="col-md-3 tenants-card-col">
+                      <div class="company-card-box">
+                        <p class="index-box"><span>1</span></p>
+                        <a href="#" class="product-card tenants-card-item">
+                          <div class="product-card-image">
+                            <img src="img/tenants/tenants-1.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="product-card-wrap">
+                            <p class="product-card-title">АО «Банк Русский Стандарт»</p>
+                            <p class="product-card-text d-flex justify-content-between">
+                              <span>Финансы и кредиты</span>
+                              <span>4 этаж</span>
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 tenants-card-col">
+                      <div class="company-card-box">
+                        <p class="index-box"><span>2</span></p>
+                        <a href="#" class="product-card tenants-card-item">
+                          <div class="product-card-image">
+                            <img src="img/tenants/tenants-2.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="product-card-wrap">
+                            <p class="product-card-title">ООО «СК АССЕТ»</p>
+                            <p class="product-card-text d-flex justify-content-between">
+                              <span>Строительство</span>
+                              <span>4 этаж</span>
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 tenants-card-col">
+                      <div class="company-card-box">
+                        <p class="index-box"><span>3</span></p>
+                        <a href="#" class="product-card tenants-card-item">
+                          <div class="product-card-image">
+                            <img src="img/tenants/tenants-3.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="product-card-wrap">
+                            <p class="product-card-title">ООО «Элит Софт»</p>
+                            <p class="product-card-text d-flex justify-content-between">
+                              <span>Тендеры</span>
+                              <span>4 этаж</span>
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 tenants-card-col">
+                      <div class="company-card-box">
+                        <p class="index-box"><span>4</span></p>
+                        <a href="#" class="product-card tenants-card-item">
+                          <div class="product-card-image">
+                            <img src="img/tenants/tenants-4.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="product-card-wrap">
+                            <p class="product-card-title">АО «Банк Русский Стандарт»</p>
+                            <p class="product-card-text d-flex justify-content-between">
+                              <span>Туризм</span>
+                              <span>4 этаж</span>
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 tenants-card-col">
+                      <div class="company-card-box">
+                        <p class="index-box"><span>5</span></p>
+                        <a href="#" class="product-card tenants-card-item">
+                          <div class="product-card-image">
+                            <img src="img/tenants/tenants-5.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="product-card-wrap">
+                            <p class="product-card-title">Бутик парфюмерии ParfumVsamare</p>
+                            <p class="product-card-text d-flex justify-content-between">
+                              <span>Розничная торговля</span>
+                              <span>4 этаж</span>
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 tenants-card-col">
+                      <div class="company-card-box">
+                        <p class="index-box"><span>6</span></p>
+                        <a href="#" class="product-card tenants-card-item">
+                          <div class="product-card-image">
+                            <img src="img/tenants/tenants-6.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="product-card-wrap">
+                            <p class="product-card-title">АО «КБ ЛОКО-БАНК»</p>
+                            <p class="product-card-text d-flex justify-content-between">
+                              <span>Финансы и кредиты</span>
+                              <span>4 этаж</span>
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 tenants-card-col">
+                      <div class="company-card-box">
+                        <p class="index-box"><span>7</span></p>
+                        <a href="#" class="product-card tenants-card-item">
+                          <div class="product-card-image">
+                            <img src="img/tenants/tenants-7.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="product-card-wrap">
+                            <p class="product-card-title">ООО «Поволжская Металлургиче...</p>
+                            <p class="product-card-text d-flex justify-content-between">
+                              <span>Промышленность</span>
+                              <span>4 этаж</span>
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 tenants-card-col">
+                      <div class="company-card-box">
+                        <p class="index-box"><span>8</span></p>
+                        <a href="#" class="product-card tenants-card-item">
+                          <div class="product-card-image">
+                            <img src="img/tenants/tenants-8.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="product-card-wrap">
+                            <p class="product-card-title">ООО «Промперфоратор»</p>
+                            <p class="product-card-text d-flex justify-content-between">
+                              <span>Промышленность</span>
+                              <span>4 этаж</span>
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 tenants-card-col">
+                      <div class="company-card-box">
+                        <p class="index-box"><span>9</span></p>
+                        <a href="#" class="product-card tenants-card-item">
+                          <div class="product-card-image">
+                            <img src="img/tenants/tenants-9.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="product-card-wrap">
+                            <p class="product-card-title">АН «Магазин новостроек»</p>
+                            <p class="product-card-text d-flex justify-content-between">
+                              <span>Продажа квартир </span>
+                              <span>4 этаж</span>
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 tenants-card-col">
+                      <div class="company-card-box">
+                        <p class="index-box"><span>10</span></p>
+                        <a href="#" class="product-card tenants-card-item">
+                          <div class="product-card-image">
+                            <img src="img/tenants/tenants-10.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="product-card-wrap">
+                            <p class="product-card-title">ООО «ППФ Страхование жизни»</p>
+                            <p class="product-card-text d-flex justify-content-between">
+                              <span>Страхование</span>
+                              <span>4 этаж</span>
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 tenants-card-col">
+                      <div class="company-card-box">
+                        <p class="index-box"><span>11</span></p>
+                        <a href="#" class="product-card tenants-card-item">
+                          <div class="product-card-image">
+                            <img src="img/tenants/tenants-11.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="product-card-wrap">
+                            <p class="product-card-title">ООО «МКК «ПРОФИРЕАЛ»</p>
+                            <p class="product-card-text d-flex justify-content-between">
+                              <span>Финансы и кредиты</span>
+                              <span>4 этаж</span>
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 tenants-card-col">
+                      <div class="company-card-box">
+                        <p class="index-box"><span>12</span></p>
+                        <a href="#" class="product-card tenants-card-item">
+                          <div class="product-card-image">
+                            <img src="img/tenants/tenants-12.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="product-card-wrap">
+                            <p class="product-card-title">ООО «Своя Тарелка»</p>
+                            <p class="product-card-text d-flex justify-content-between">
+                              <span>Питание</span>
+                              <span>4 этаж</span>
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="rentsTable">
+              <div class="rents-table-content">
+                <table class="rents-table">
+                  <thead>
+                    <tr>
+                      <th class="for-floor">
+                        <span>Этаж</span>
+                      </th>
+                      <th class="for-square">
+                        <span>площадь</span>
+                      </th>
+                      <th class="for-repair">Ремонт</th>
+                      <th class="for-location">Окна и расположение</th>
+                      <th class="for-action">Подробнее</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="for-floor">Цоколь</td>
+                      <td class="for-square">26,8 м2</td>
+                      <td class="for-repair">С отделкой</td>
+                      <td class="for-location">Внутренее расположение</td>
+                      <td class="for-action">
+                        <button class="hide-btn rent-table-more-btn rentTableMoreBtn">
+                          <svg class="svg-icon icon">
+                            <use xlink:href="img/icons/svg-icons.svg#icon_rent_table_action"></use>
+                          </svg>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="for-floor">Цоколь</td>
+                      <td class="for-square">16,2 м2</td>
+                      <td class="for-repair">Идёт плановый ремонт</td>
+                      <td class="for-location">Внутренее расположение</td>
+                      <td class="for-action">
+                        <button class="hide-btn rent-table-more-btn rentTableMoreBtn">
+                          <svg class="svg-icon icon">
+                            <use xlink:href="img/icons/svg-icons.svg#icon_rent_table_action"></use>
+                          </svg>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="for-floor">4</td>
+                      <td class="for-square">32,6 м2</td>
+                      <td class="for-repair">С отделкой</td>
+                      <td class="for-location">Внутренее расположение</td>
+                      <td class="for-action">
+                        <button class="hide-btn rent-table-more-btn rentTableMoreBtn">
+                          <svg class="svg-icon icon">
+                            <use xlink:href="img/icons/svg-icons.svg#icon_rent_table_action"></use>
+                          </svg>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="for-floor">4</td>
+                      <td class="for-square">65,0 м2</td>
+                      <td class="for-repair">Ремонт от прошлого арендатора</td>
+                      <td class="for-location">С видом на юг, в сторону ЦАВ</td>
+                      <td class="for-action">
+                        <button class="hide-btn rent-table-more-btn rentTableMoreBtn">
+                          <svg class="svg-icon icon">
+                            <use xlink:href="img/icons/svg-icons.svg#icon_rent_table_action"></use>
+                          </svg>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="for-floor">4</td>
+                      <td class="for-square">126,1 м2</td>
+                      <td class="for-repair">С отделкой</td>
+                      <td class="for-location">С видом на запад, в сторону Волги</td>
+                      <td class="for-action">
+                        <button class="hide-btn rent-table-more-btn rentTableMoreBtn">
+                          <svg class="svg-icon icon">
+                            <use xlink:href="img/icons/svg-icons.svg#icon_rent_table_action"></use>
+                          </svg>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="for-floor">5</td>
+                      <td class="for-square">17,3 м2</td>
+                      <td class="for-repair">С отделкой</td>
+                      <td class="for-location">С видом на север, в сторону парка Гагарина</td>
+                      <td class="for-action">
+                        <button class="hide-btn rent-table-more-btn rentTableMoreBtn">
+                          <svg class="svg-icon icon">
+                            <use xlink:href="img/icons/svg-icons.svg#icon_rent_table_action"></use>
+                          </svg>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="for-floor">5</td>
+                      <td class="for-square">20,0 м2</td>
+                      <td class="for-repair">С отделкой</td>
+                      <td class="for-location">Внутренее расположение</td>
+                      <td class="for-action">
+                        <button class="hide-btn rent-table-more-btn rentTableMoreBtn">
+                          <svg class="svg-icon icon">
+                            <use xlink:href="img/icons/svg-icons.svg#icon_rent_table_action"></use>
+                          </svg>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="for-floor">5</td>
+                      <td class="for-square">66,3 м2</td>
+                      <td class="for-repair">С отделкой</td>
+                      <td class="for-location">Внутренее расположение</td>
+                      <td class="for-action">
+                        <button class="hide-btn rent-table-more-btn rentTableMoreBtn">
+                          <svg class="svg-icon icon">
+                            <use xlink:href="img/icons/svg-icons.svg#icon_rent_table_action"></use>
+                          </svg>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="for-floor">7</td>
+                      <td class="for-square">59,2 м2</td>
+                      <td class="for-repair">С отделкой</td>
+                      <td class="for-location">С видом на север, в сторону парка Гагарина</td>
+                      <td class="for-action">
+                        <button class="hide-btn rent-table-more-btn rentTableMoreBtn">
+                          <svg class="svg-icon icon">
+                            <use xlink:href="img/icons/svg-icons.svg#icon_rent_table_action"></use>
+                          </svg>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="for-floor">7</td>
+                      <td class="for-square">24,5 м2</td>
+                      <td class="for-repair">С отделкой</td>
+                      <td class="for-location">С видом на север, в сторону парка Гагарина</td>
+                      <td class="for-action">
+                        <button class="hide-btn rent-table-more-btn rentTableMoreBtn">
+                          <svg class="svg-icon icon">
+                            <use xlink:href="img/icons/svg-icons.svg#icon_rent_table_action"></use>
+                          </svg>
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      id="footerSection"
+      class="section section-4 home-footer-section footer-section full-section"
+      data-theme=""
+      data-index="3"
+    >
+      <div class="footer-section-inner">
+        <div class="footer-wrapper">
+          <div class="footer-top-block">
+            <div class="container">
+              <div class="footer-top-title-box text-center">
+                <h2 class="section-title mb-4">Заинтересованы?</h2>
+                <p class="footer-phone mb-0">+7 (846) 372-72-72</p>
+              </div>
+              <form action="#" method="POST" class="form contact-form">
+                <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                    <div class="form-group mb-4 mb-md-3 mb-lg-0">
+                      <div class="input-group">
+                        <input type="text" name="full_name" placeholder="Ваше имя" class="form-control" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="form-group mb-4 mb-md-3 mb-lg-0">
+                      <div class="input-group">
+                        <input type="text" name="phone" placeholder="Ваш телефон" class="form-control phoneInp" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="btn-box d-flex align-items-center">
+                      <button type="submit" class="btn btn-primary" disabled>перезвоните мне</button>
+                      <div class="privacy-box">
+                        <div class="custom-control custom-checkbox privacy-control">
+                          <input
+                            type="checkbox"
+                            class="custom-control-input privacy-input"
+                            id="privacyCheck"
+                            name="privacy"
+                          />
+                          <label class="custom-control-label privacy-label" for="privacyCheck"
+                            >Я согласен на обработку моих персональных данных</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <footer class="page-footer d-flex flex-column">
+            <nav class="page-footer-top d-none d-md-block">
+              <div class="container">
+                <ul class="footer-menu-list">
+                  <li class="footer-menu-item"><a href="#">О центре</a></li>
+                  <li class="footer-menu-item"><a href="#">Новости</a></li>
+                  <li class="footer-menu-item"><a href="#">Наши арендаторы</a></li>
+                  <li class="footer-menu-item"><a href="#">Аренда офисов</a></li>
+                  <li class="footer-menu-item"><a href="#">Сервис</a></li>
+                  <li class="footer-menu-item"><a href="#">Инфраструктура</a></li>
+                  <li class="footer-menu-item"><a href="#">Паркинг</a></li>
+                  <li class="footer-menu-item"><a href="#">Контакты</a></li>
+                </ul>
+              </div>
+            </nav>
+            <div class="page-footer-content flex-grow-1">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-3">
+                    <div class="about-box">
+                      <a href="#" class="footer-logo">
+                        <img src="img/logo.svg" alt="Региональный деловой центр" class="img-fluid" />
+                      </a>
+                      <ul class="about-list">
+                        <li>
+                          <a href="#">
+                            <svg class="svg-icon icon for-address">
+                              <use xlink:href="img/icons/svg-icons.svg#icon_footer_map"></use>
+                            </svg>
+                            <span>Московское шоссе, 41</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="tel:+78463727272">
+                            <svg class="svg-icon icon for-phone">
+                              <use xlink:href="img/icons/svg-icons.svg#icon_footer_phone"></use>
+                            </svg>
+                            <span>+7 (846) 372-72-72</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="mobile-nav d-block d-md-none">
+                      <ul class="mobile-nav-list">
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">О центре</a></li>
+                        <li><a href="#">Наши арендаторы</a></li>
+                        <li><a href="#">Сервис</a></li>
+                        <li><a href="#">Аренда офисов</a></li>
+                        <li><a href="#">Инфраструктура</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Паркинг</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-8 offset-lg-1">
+                    <p class="about-text mb-0">
+                      Офисный центр премиум-класса для крупных региональных, федеральных и иностранных компаний. Один из
+                      немногих центров деловой недвижимости в Самаре, где сочетается высокий уровень объекта,
+                      престижность, выгодность его расположения и доступность транспортных магистралей. Общая площадь
+                      РДЦ- 13500 кв.м. Высокая транспортная доступность, современное оснащение здания, комплекс услуг
+                      управляющей компании, услуги наших арендаторов, внутренняя система коммуникаций призваны экономить
+                      ваше время секунду за секундой. А чем быстрее вы закрываете рабочие задачи, тем больше
+                      зарабатывает ваша компания.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page-footer-bottom">
+              <div class="container">
+                <div class="copyright-box">
+                  <div class="row align-items-center">
+                    <div class="col-lg-4">
+                      <p class="mb-3 mb-lg-0">© 2021 «Региональный Деловой Центр»</p>
+                    </div>
+                    <div class="col-lg-4">
+                      <p class="text-left text-lg-center mb-3 mb-lg-0"><a href="#">Политика конфиденциальности</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="d-flex align-items-center justify-content-start justify-content-lg-end">
+                        <p class="text-left text-lg-right mb-0"><a href="#">Разработка и сопровождение</a></p>
+                        <img src="img/study-img.png" alt="" class="study-img" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </section>
+
+    <div class="up-btn-box" id="upBtnBox">
+      <button id="upBtn" type="button" class="up-btn">
+        <svg class="svg-icon icon"><use xlink:href="img/icons/svg-icons.svg#icon_up_btn"></use></svg>
+      </button>
+    </div>
+
+    <!--<div id="preloaderBlock" class="preloader-block show loading">-->
+    <div id="preloaderBlock" class="preloader-block">
+      <div class="preloader-box">
+        <div class="preloader-center-box">
+          <div class="loading-line"></div>
+          <div class="logo-box">
+            <img src="img/logo.svg" alt="" />
+          </div>
+        </div>
+        <p class="loading-text">Загрузка</p>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
