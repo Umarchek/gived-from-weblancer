@@ -16491,7 +16491,7 @@ body.fixed {
 }
 
 .rents-section .rents-visual-content .free-areas-box {
-  padding-top: 662px
+  padding-top: 41px
 }
 
 .rents-section .rents-visual-content .floor-plans-block {
@@ -16757,6 +16757,9 @@ body.fixed {
   }
   .rents-section .occupied-area-per-floor-block {
     padding: 54px 15px 0;
+  }
+  .rents-section .rents-visual-content .free-areas-box {
+    padding-top: 41px
   }
 }
 
