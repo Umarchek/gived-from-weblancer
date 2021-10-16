@@ -15384,7 +15384,7 @@ body.fixed {
   align-items: center;
   position: absolute;
   top: 0;
-  left: 0
+  left: 0;
 }
 
 .parking__line {
@@ -15412,7 +15412,7 @@ body.fixed {
 }
 
 .parking-info-section .parking-info-image img {
-  object-position: center
+  object-position: center;
 }
 
 .parking-info-section .parking-info-block {
@@ -15422,7 +15422,7 @@ body.fixed {
   width: 100%;
   max-width: 595px;
   height: 100%;
-  position: relative
+  position: relative;
 }
 
 .parking-info-section .parking-info-block-content h2 {
@@ -15430,39 +15430,39 @@ body.fixed {
   font-family: PF DinDisplay Pro, sans-serif;
   font-weight: 400;
   font-size: 40px;
-  line-height: 140%
+  line-height: 140%;
 }
 
 .parking-info-section .parking-info-block-content .text-box {
-  color: #191d24
+  color: #191d24;
 }
 
 .parking-info-section .parking-info-block-content .text-box p {
   margin-bottom: 0;
   font-size: 19px;
-  line-height: 160%
+  line-height: 160%;
 }
 
 @media (max-width:1689px) {
   .parking-info-section .parking-info-image img {
-    max-height: 577px
+    max-height: 577px;
   }
   .parking-info-section .parking-info-block {
-    max-width: 423px
+    max-width: 423px;
   }
   .parking-info-section .parking-info-block-content h2 {
     margin-bottom: 18px;
-    font-size: 28px
+    font-size: 28px;
   }
 }
 
 @media (max-width:991px) {
   .parking-info-section .parking-info-block {
-    max-width: 100%
+    max-width: 100%;
   }
   .parking-info-section .parking-info-block-content h2 {
     margin-bottom: 15px;
-    font-size: 21px
+    font-size: 21px;
   }
   .parking-info-section .parking-info-block-content .text-box ul {
     padding: 0;
@@ -15481,7 +15481,7 @@ body.fixed {
 .parking-structure-section {
   background-size: cover;
   color: #fff;
-  position: relative
+  position: relative;
 }
 
 .parking-structure-section:before {
@@ -15492,7 +15492,7 @@ body.fixed {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1
+  z-index: 1;
 }
 
 .parking-structure-section .parking-structure-section-inner {
@@ -15506,14 +15506,14 @@ body.fixed {
 @media (max-width:767.9px) {
   .parking-structure-section .parking-structure-box svg {
     width: 150%;
-    margin-left: -20%
+    margin-left: -20%;
   }
 }
 
 @media (max-width:576px) {
   .parking-structure-section .parking-structure-box svg {
     width: 200%;
-    margin-left: -50%
+    margin-left: -50%;
   }
 }
 
@@ -15522,18 +15522,18 @@ body.fixed {
   font-weight: 400;
   font-size: 35px;
   line-height: 110%;
-  color: #ffc700
+  color: #ffc700;
 }
 
 @media (max-width:1689px) {
   .news-first-section .news-header-date {
     margin-left: 30px;
-    font-size: 25px
+    font-size: 25px;
   }
 }
 
 .news-section .news-section-inner {
-  padding-bottom: 100px
+  padding-bottom: 100px;
 }
 
 .news-section .news-header {
@@ -15543,60 +15543,60 @@ body.fixed {
 
 .news-section .news-tab-menu-list {
   margin-left: 0;
-  margin-right: 0
+  margin-right: 0;
 }
 
 .news-section .news-tab-menu-list .main-tab-menu-item {
-  padding: 0
+  padding: 0;
 }
 
 .news-section .news-tab-menu-list .main-tab-menu-item a {
   display: block;
-  padding: 25px 40px
+  padding: 25px 40px;
 }
 
 .news-section .news-tab-menu-list .main-tab-menu-item a.mixitup-control-active {
-  background-color: #ffc700
+  background-color: #ffc700;
 }
 
 .news-section .news-tab-menu-list .main-tab-menu-item a:hover {
   background-color: #ffc700;
-  color: inherit
+  color: inherit;
 }
 
 .news-section .news-card-col {
-  margin-bottom: 36px
+  margin-bottom: 36px;
 }
 
 .news-section .more-btn-box {
-  padding-top: 30px
+  padding-top: 30px;
 }
 
 .news-section .mixed-card-col {
-  margin-bottom: 36px
+  margin-bottom: 36px;
 }
 
 @media (max-width:1689px) {
   .news-section .news-section-inner {
-    padding-bottom: 70px
+    padding-bottom: 70px;
   }
   .news-section .news-header {
-    margin-bottom: 35px
+    margin-bottom: 35px;
   }
   .news-section .news-tab-menu-list .main-tab-menu-item a {
-    padding: 19px 28px 15px
+    padding: 19px 28px 15px;
   }
   .news-section .mixed-card-col {
-    margin-bottom: 25px
+    margin-bottom: 25px;
   }
   .news-section .more-btn-box {
-    padding-top: 25px
+    padding-top: 25px;
   }
 }
 
 @media (max-width:767.9px) {
   .news-section .news-section-inner {
-    padding-bottom: 30px
+    padding-bottom: 30px;
   }
   .news-section .news-header {
     margin-bottom: 15px;
@@ -15604,30 +15604,30 @@ body.fixed {
   }
   .news-section .news-tab-menu-list {
     margin-left: -8.5px;
-    margin-right: -8.5px
+    margin-right: -8.5px;
   }
   .news-section .news-tab-menu-list .main-tab-menu-item {
-    padding: 0 8.5px
+    padding: 0 8.5px;
   }
   .news-section .news-tab-menu-list .main-tab-menu-item a {
     padding: 0;
-    font-size: 13px
+    font-size: 13px;
   }
   .news-section .news-tab-menu-list .main-tab-menu-item a.mixitup-control-active, .news-section .news-tab-menu-list .main-tab-menu-item a:hover {
     background-color: transparent;
-    color: #ffc700
+    color: #ffc700;
   }
   .news-section .mixed-card-col {
-    margin-bottom: 25px
+    margin-bottom: 25px;
   }
   .news-section .more-btn-box {
-    padding-top: 5px
+    padding-top: 5px;
   }
   .news-section .more-btn-box .btn {
     font-size: 11px;
     line-height: 1.4;
     padding: 10px 20px;
-    color: #000
+    color: #000;
   }
   .news-section .more-btn-box .svg-icon {
     width: 16px;
@@ -15638,13 +15638,13 @@ body.fixed {
 .news-item-first-section .news-item-title-box {
   padding: 31px 60px 0;
   background-color: #fff;
-  color: #000
+  color: #000;
 }
 
 .news-item-first-section .news-item-title-box .section-title {
   font-size: 45px;
   line-height: 140%;
-  padding-bottom: 14px
+  padding-bottom: 14px;
 }
 
 .news-item-first-section .news-item-title-box .date-box {
@@ -15668,11 +15668,11 @@ body.fixed {
 
 .news-item-first-section .news-item-title-box .date-box .news-card-date .icon {
   width: 16px;
-  height: 16px
+  height: 16px;
 }
 
 .news-item-first-section .news-item-title-box .date-box .news-card-view {
-  margin-left: 40px
+  margin-left: 40px;
 }
 
 .news-item-first-section .news-item-title-box .date-box .news-card-view .icon {
