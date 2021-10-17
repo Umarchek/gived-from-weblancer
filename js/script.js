@@ -33104,36 +33104,36 @@
           })();
         }, 1500);
     }),
-      //   qe(document).scroll(function (e) {
-      //     if (!Ge) return !1;
-      //     let t = qe(this).scrollTop();
-      //     t < Ve
-      //       ? (function () {
-      //           const e = qe("#header");
-      //           let t = qe(document).scrollTop();
-      //           t < qe(e)[0].clientHeight + 30
-      //             ? (qe(e).addClass("no-transition"), qe(e).css("top", -1 * t))
-      //             : (qe(e).removeClass("no-transition"),
-      //               setTimeout(() => {
-      //                 qe(e).css("top", -130);
-      //               }, 100));
-      //           qe("#upBtnBox").removeClass("active");
-      //         })()
-      //       : (function () {
-      //           const e = qe("#header");
-      //           let t = qe(document).scrollTop();
-      //           t > 0
-      //             ? (qe("#upBtnBox").addClass("active"),
-      //               qe(e).addClass("up").removeClass("no-transition"),
-      //               setTimeout(() => {
-      //                 qe(e).css("top", 0);
-      //               }, 100))
-      //             : (qe(e).removeClass("up").addClass("no-transition"),
-      //               qe(e).css("top", -1 * t),
-      //               qe("#upBtnBox").removeClass("active"));
-      //         })(),
-      //       (Ve = t);
-      //   })`,
+      qe(document).scroll(function (e) {
+        if (!Ge) return !1;
+        let t = qe(this).scrollTop();
+        t < Ve
+          ? (function () {
+            const e = qe("#header");
+            let t = qe(document).scrollTop();
+            t < qe(e)[0].clientHeight + 30
+              ? (qe(e).addClass("no-transition"), qe(e).css("top", -1 * t))
+              : (qe(e).removeClass("no-transition"),
+                setTimeout(() => {
+                  qe(e).css("top", -130);
+                }, 100));
+            qe("#upBtnBox").removeClass("active");
+          })()
+          : (function () {
+            const e = qe("#header");
+            let t = qe(document).scrollTop();
+            t > 0
+              ? (qe("#upBtnBox").addClass("active"),
+                qe(e).addClass("up").removeClass("no-transition"),
+                setTimeout(() => {
+                  qe(e).css("top", 0);
+                }, 100))
+              : (qe(e).removeClass("up").addClass("no-transition"),
+                qe(e).css("top", -1 * t),
+                qe("#upBtnBox").removeClass("active"));
+          })(),
+          (Ve = t);
+      }),
       qe(".reviewLogoItem").click(function (e) {
         return (
           e.preventDefault(),
@@ -33674,6 +33674,8 @@ $(document).ready(function () {
 // 17.10.2021 pravki infrastruktura started !
 const $infraItem = $('.infrastructure__item')
 
+$('.inner').slideUp()
+
 $infraItem.on('click', function (e) {
   $infraItem.removeClass('item-active')
   $(this).addClass('item-active')
@@ -33684,7 +33686,10 @@ $infraItem.on('click', function (e) {
   }
 })
 
-$('.page-header').css('top', 'none')
+$('.tenants-form-sort-item').on('click', function (e) {
+  $('.tenants-form-sort-item').removeClass('active')
+  $(this).addClass('active')
+})
 
 function pageHeader(elem, top) {
   if (window.scrollY == 0) {

@@ -13,7 +13,8 @@
 </head>
 
 <body>
-  <header id="header" class="page-header text-white" style="top: auto !important;">
+
+  <header id="header" class="page-header text-white">
     <div class="container">
       <div class="header-box d-flex justify-content-between align-items-center">
         <div class="logo-box d-flex align-items-center">
@@ -16575,23 +16576,46 @@
         }
       })
     }
-    function pageHeader(elem, top) {
-      if (window.scrollY == 0) {
-        elem.animate({
-          top: 0
-        }, 10)
-      }
-      else {
-        elem.animate({
-          top: top
-        }, 10)
-      }
-    }
-    pageHeader($('.page-header'), -100)
 
-    $(document).scroll(function (e) {
-      pageHeader($('.page-header'), -100)
-    })
+    // function pageHeader(elem, top) {
+    //   $('.page-header').removeAttr('style')
+    //   if (window.scrollY == 0) {
+    //     elem.animate({
+    //       top: 0
+    //     }, 10)
+    //   }
+    //   else {
+    //     elem.animate({
+    //       top: `${top}`,
+    //       display: 'none'
+    //     }, 10)
+    //   }
+    // }
+
+    // // console.log($('.page-header').css('display', 'none !Important'));
+
+    // $('.owlCarousel').owlCarousel({
+    //   loop: true,
+    //   margin: 10,
+    //   nav: true,
+    //   responsive: {
+    //     0: {
+    //       items: 1
+    //     },
+    //     600: {
+    //       items: 3
+    //     },
+    //     1000: {
+    //       items: 5
+    //     }
+    //   }
+    // })
+
+    // // pageHeader($('.page-header'), -100)
+
+    // $(document).scroll(function (e) {
+    //   pageHeader($('.page-header'), -100)
+    // })
   </script>
 </body>
 
