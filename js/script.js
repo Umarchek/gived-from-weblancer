@@ -33684,6 +33684,8 @@ $infraItem.on('click', function (e) {
   }
 })
 
+$('.page-header').css('top', 'none')
+
 function pageHeader(elem, top) {
   if (window.scrollY == 0) {
     elem.animate({
@@ -33696,9 +33698,9 @@ function pageHeader(elem, top) {
     }, 10)
   }
 }
-pageHeader($('.page-header'), -100)
+pageHeader($('.page-header'), -130)
 
 $(document).scroll(function (e) {
-  pageHeader($('.page-header'), -100)
+  pageHeader($('.page-header'), -130)
 })
 
