@@ -18870,7 +18870,7 @@ body.fixed {
 .news-item-first-section .news-item-title-box .date-box {
   border-bottom: 1px solid #e4e4e4;
   padding-bottom: 24px;
-  justify-content: flex-end !important;
+  justify-content: flex-start !important;
 }
 
 .news-item-first-section .news-item-title-box .date-box p {
