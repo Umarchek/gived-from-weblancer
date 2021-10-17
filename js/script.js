@@ -33698,6 +33698,11 @@ $('.tenants-form-sort-item').on('click', function (e) {
   $(this).addClass('active')
 })
 
+
+window.addEventListener('load', function (e) {
+  document.querySelector('#section_2').style.height = 'unset!important'
+});
+
 // function pageHeader(elem, top) {
 //   if (window.scrollY > 0) {
 //     elem.animate({

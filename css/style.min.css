@@ -18595,6 +18595,7 @@ body.fixed {
 }
 
 .parking-info-section .parking-info-block {
+  padding: 60px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18623,9 +18624,6 @@ body.fixed {
 }
 
 @media (max-width:1689px) {
-  .parking-info-section .parking-info-image img {
-    max-height: 577px;
-  }
 
   .parking-info-section .parking-info-block {
     max-width: 423px;
