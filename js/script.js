@@ -32771,7 +32771,7 @@
                   qe(s).addClass("fixed") :
                   (qe(s).removeClass("fixed up"),
                     qe("#upBtnBox").removeClass("active")),
-                "up" === i &&
+                // "up" === i &&
                 1 !== t &&
                 (qe("#upBtnBox").addClass("active"),
                   setTimeout(() => { }, 2e3)),
@@ -33691,21 +33691,21 @@ $('.tenants-form-sort-item').on('click', function (e) {
   $(this).addClass('active')
 })
 
-function pageHeader(elem, top) {
-  if (window.scrollY == 0) {
-    elem.animate({
-      top: 0
-    }, 10)
-  }
-  else {
-    elem.animate({
-      top: top
-    }, 10)
-  }
-}
-pageHeader($('.page-header'), -130)
+// function pageHeader(elem, top) {
+//   if (window.scrollY > 0) {
+//     elem.animate({
+//       top
+//     }, 10)
+//   }
+//   else {
+//     elem.animate({
+//       top: 0
+//     }, 10)
+//   }
+// }
+// pageHeader($('#header'), -130)
 
-$(document).scroll(function (e) {
-  pageHeader($('.page-header'), -130)
-})
+// $(window).scroll(function (e) {
+//   pageHeader($('#header'), -130)
+// })
 
