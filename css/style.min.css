@@ -17314,13 +17314,15 @@ body.fixed {
     margin-bottom: 33px
   }
 
+
   .transport-accessibility-section .transport-accessibility-inner .transport-accessibility-address-list .transport-accessibility-address-item:not(:last-child) {
     margin-bottom: 28px;
   }
 
   .transport-accessibility-section .transport-accessibility-inner .transport-accessibility-address-list .transport-accessibility-address-item .transport-accessibility-address-icon-box .transport-accessibility-address-arrow-line {
-    height: 3px
+    height: 3px;
   }
+ 
 
   .transport-accessibility-section .transport-accessibility-inner .transport-accessibility-address-list .transport-accessibility-address-item .transport-accessibility-address-icon-box .transport-accessibility-address-arrow-triangle {
     border-width: 10.5px 0 10.5px 19px;
@@ -17328,7 +17330,7 @@ body.fixed {
 
   .transport-accessibility-section .transport-accessibility-inner .transport-accessibility-address-list .transport-accessibility-address-item .transport-accessibility-address-text {
     font-size: 16px;
-    top: -14px
+    top: -14px;
   }
 
   .transport-accessibility-section .transport-accessibility-inner .transport-accessibility-address-list .transport-accessibility-address-item .transport-accessibility-address-distance {
