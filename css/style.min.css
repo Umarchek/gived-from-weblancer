@@ -3301,6 +3301,10 @@ pre code {
   .transport-accessibility-section .transport-accessibility-inner .transport-accessibility-address-list {
     margin-top: 255px !important;
   }
+  .tenants-card-col {
+    margin: 0 10px;
+    padding-bottom: 20px
+  }
 }
 
 .table {
