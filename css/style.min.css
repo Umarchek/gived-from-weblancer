@@ -3495,6 +3495,11 @@ pre code {
     .transport-accessibility-section .transport-accessibility-inner .transport-accessibility-address-list {
         margin-top: 255px !important;
     }
+    .main-tab-menu-list .main-tab-menu-item {
+        padding: 0 5px !important;
+        padding-top: 5px !important;
+        margin-right: 4px;
+    }
     .tenants-card-col {
         margin: 0 10px;
         padding-bottom: 20px
