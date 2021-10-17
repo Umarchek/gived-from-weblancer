@@ -15999,12 +15999,7 @@ body.fixed {
     margin-right: 5px;
   }
 
-  section.office-rent-section {
-    min-height: auto;
-    padding-top: 26vw;
-    padding-bottom: 26vw;
-    height: auto;
-  }
+  
 
   .footer-section {
     min-height: auto !important;
@@ -17603,7 +17598,6 @@ body.fixed {
 }
 
 .office-rent-section .office-rent-block {
-  max-width: 440px;
   padding: 55px 56px;
   margin-left: auto;
   margin-right: auto;
@@ -17621,7 +17615,6 @@ body.fixed {
 
 @media (max-width:1689px) {
   .office-rent-section .office-rent-block {
-    max-width: 308px;
     padding: 39px 41px
   }
 
@@ -17728,7 +17721,7 @@ body.fixed {
 @media (max-width:1400px) {
   .footer-section .footer-top-block {
     padding: 30px 0;
-    height: 350px;
+    height: 464px;
   }
 
   .footer-section .footer-top-block .footer-top-title-box {
