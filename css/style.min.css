@@ -17605,7 +17605,6 @@ body.fixed {
   padding: 55px 56px;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(255, 199, 0, .9)
 }
 
 .office-rent-section .office-rent-block .office-rent-text {
@@ -22234,4 +22233,8 @@ body.fixed {
 
 .page-header .menu-toggle-btn {
   margin-left: 20px;
+}
+
+.office-rent-section-inner{
+  background-color: rgba(255, 199, 0, .9);
 }
